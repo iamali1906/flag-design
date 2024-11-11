@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.case-flags-container {
+  border: 3px solid #a34fff;
+  border-inline: 6px solid #a34fff;
+  padding: 10px 20px;
+  width: 600px;
+  font-family: Arial, sans-serif;
+  margin: 50px auto 0px;
+}
+
+.case-flags-header {
+  display: flex;
+  align-items: center;
+}
+
+.case-flags-header-left {
+  width: 60%;
+}
+
+.case-flags-header-left h2 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-block: 0px 10px;
+}
+
+.clear-flag-button {
+  background-color: transparent;
+  border: 2px solid #888;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: #8a2df3;
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.clear-flag-button span {
+  margin-right: 5px;
+  color: #4caf50;
+  font-size: 20px;
+}
+
+.next-flag-details p {
+  margin-block: 0px 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.next-flag-details h3 {
+  color: #18b8f2;
+  font-size: 18px;
+}
+
+.flag-timer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.timer-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  white-space: pre;
+  font-size: 18px;
+  font-weight: bold;
+  color: #4caf50;
+  border: 13px solid #ccc;
+  position: relative;
+}
+
+.timer-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timer-label {
+  font-size: 12px;
+  font-weight: 300;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flag-timing>div>span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+button.timer-next-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: transparent;
+  text-transform: capitalize;
+  color: #8a2df3;
+  font-weight: 00;
+  font-size: 16px;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  border-color: #888;
+}
